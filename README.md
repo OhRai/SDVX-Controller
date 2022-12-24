@@ -47,7 +47,7 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 
 | Encoder | D+ Pin | D- Pin |
 | ------- | :----: | :----: |
-| Left | TX (0) | RX (1) |
+| Left | RX (0) | TX (1) |
 | Right | 2 | 3 |
 ## Who will use this repo or project?
 
