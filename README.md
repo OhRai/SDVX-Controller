@@ -45,7 +45,7 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 | FX-R | A1 | 6 |
 | START | 7 | 13 |
 
-| Encoder | D+ Pin | D- Pin |
+| Encoder | A Pin | B Pin |
 | ------- | :----: | :----: |
 | Left | RX (0) | TX (1) |
 | Right | 2 | 3 |
