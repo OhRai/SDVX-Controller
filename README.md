@@ -27,13 +27,28 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 | Optical Rotary Encoder | 2 |
 | 6mm D-Shaft Knobs | 2 |
 | Arduino Pro Micro | 1 |
+| USB-C Cable  | 1 |
 | 100pc Spade Connector | 1 |
 | 5m Strip Wire | 1 |
 
 ### Button Layout and Naming
 ![sdvx layout](https://user-images.githubusercontent.com/67884995/209450498-75a98e8d-c59a-4119-a280-958cf7c1a38d.png)
 
+### Pinout 
+| Button | Switch Pin | LED Pin |
+| ------ | :--------: | :-----: |
+| BT-A | A2 | 9 |
+| BT-B | A3 | 10 |
+| BT-C | A4 | 11 |
+| BT-D | A5 | 12 |
+| FX-L | A0 | 5 |
+| FX-R | A1 | 6 |
+| START | 7 | 13 |
 
+| Encoder | D+ Pin | D- Pin |
+| ------- | :----: | :----: |
+| Left | TX (0) | RX (1) |
+| Right | 2 | 3 |
 ## Who will use this repo or project?
 
 
