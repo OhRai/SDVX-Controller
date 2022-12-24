@@ -37,17 +37,17 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 ### Pinout 
 | Button | Switch Pin | LED Pin |
 | ------ | :--------: | :-----: |
-| BT-A | A2 | 9 |
-| BT-B | A3 | 10 |
-| BT-C | A4 | 11 |
+| BT-A | A0 | 7 |
+| BT-B | A2 | 9 |
+| BT-C | A3 | 10 |
 | BT-D | A5 | 12 |
-| FX-L | A0 | 5 |
-| FX-R | A1 | 6 |
-| START | 7 | 13 |
+| FX-L | A1 | 8 |
+| FX-R | A4 | 11 |
+| START | 13 | 6 |
 
 | Encoder | A Pin | B Pin |
 | ------- | :----: | :----: |
-| Left | RX (0) | TX (1) |
+| Left | 0 | 1 |
 | Right | 2 | 3 |
 ## Who will use this repo or project?
 
