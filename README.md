@@ -30,6 +30,9 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 | 100pc Spade Connector | 1 |
 | 5m Strip Wire | 1 |
 
+### Button Layout and Naming
+![sdvx layout](https://user-images.githubusercontent.com/67884995/209450498-75a98e8d-c59a-4119-a280-958cf7c1a38d.png)
+
 
 ## Who will use this repo or project?
 
