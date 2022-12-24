@@ -14,7 +14,7 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 
 ## Pre-Assembly
 
-### Parts list: 
+### Parts list
 | Part | Amount |
 | ----------- | :-----------: |
 | Medium Density Fiberboard (MDF) 48”x24”x1/4” | 1 | 
