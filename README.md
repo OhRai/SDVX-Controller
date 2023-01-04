@@ -22,8 +22,6 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 | 60mm Square Button | 4 |
 | 45mm Rectangle Button | 2 |
 | 33mm Square Button | 1 |
-| Omron V-10-1A4 Switch | 4 |
-| Omron D3V-01-3C23-K Switch | 2 |
 | Optical Rotary Encoder | 2 |
 | 6mm D-Shaft Knobs | 2 |
 | Arduino Pro Micro | 1 |
