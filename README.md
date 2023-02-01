@@ -18,7 +18,6 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 | Part | Amount |
 | ----------- | :-----------: |
 | Medium Density Fiberboard (MDF) 48”x24”x1/4” | 1 | 
-|  Clear Acryllic 18x12”x1/4” | 1 |
 | 60mm Square Button | 4 |
 | 45mm Rectangle Button | 2 |
 | 33mm Square Button | 1 |
@@ -33,15 +32,15 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 ![sdvx layout](https://user-images.githubusercontent.com/67884995/209450498-75a98e8d-c59a-4119-a280-958cf7c1a38d.png)
 
 ### Pinout 
-| Button | Switch Pin | LED Pin |
-| ------ | :--------: | :-----: |
-| BT-A | A0 | 7 |
-| BT-B | A2 | 9 |
-| BT-C | A3 | 10 |
-| BT-D | A5 | 12 |
-| FX-L | A1 | 8 |
-| FX-R | A4 | 11 |
-| START | 13 | 6 |
+| Button | Switch Pin |
+| ------ | :--------: |
+| BT-A | A0 |
+| BT-B | A2 |
+| BT-C | A3 |
+| BT-D | A5 |
+| FX-L | A1 |
+| FX-R | A4 |
+| START | 13 |
 
 | Encoder | A Pin | B Pin |
 | ------- | :----: | :----: |
