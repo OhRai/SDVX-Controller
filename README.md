@@ -46,7 +46,9 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 | ------- | :----: | :----: |
 | Left | 0 | 1 |
 | Right | 2 | 3 |
-## Who will use this repo or project?
+## Arduino Code
+The code for this project has been uploaded to this repo, please check it out!
+
 
 
 ## What is the goal of this project?
