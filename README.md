@@ -34,13 +34,13 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 ### Pinout 
 | Button | Switch Pin |
 | ------ | :--------: |
-| BT-A | A0 |
-| BT-B | A2 |
-| BT-C | A3 |
-| BT-D | A5 |
-| FX-L | A1 |
-| FX-R | A4 |
-| START | 13 |
+| BT-A | A2 |
+| BT-B | A3 |
+| BT-C | A9 |
+| BT-D | A10 |
+| FX-L | A0 |
+| FX-R | A1 |
+| START | 6 |
 
 | Encoder | A Pin | B Pin |
 | ------- | :----: | :----: |
