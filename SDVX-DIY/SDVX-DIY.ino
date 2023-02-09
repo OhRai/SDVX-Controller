@@ -1,20 +1,3 @@
-/*
-This code is written for the SDVX DIY tutorial at https://sdvx-diy.github.io/
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-*/
-
 #include "./src/Encoder/Encoder.h"
 #include <Keyboard.h>
 #include <Mouse.h>
@@ -27,15 +10,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #define FxL_PIN A0
 #define FxR_PIN A1
 #define START_PIN 6
-
-/* LED Output Pins */
-#define BTA_LED 11
-#define BTB_LED 11
-#define BTC_LED 16
-#define BTD_LED 15
-#define FxL_LED 5
-#define FxR_LED 11
-#define START_LED 11
 
 /* Software Debounce Interval */
 #define DEBOUNCE 10
@@ -57,9 +31,6 @@ bool buttonState[7];
 bool switchType[7] = {true, true, true, true, true, true, true};
 char asciiKey[7] = {0x64, 0x66, 0x6A, 0x6B, 0x6D, 0x63, 0x31};
 
-/* Lighting */
-unsigned int ledPin[7] = {BTA_LED, BTB_LED, BTC_LED, BTD_LED, FxL_LED, FxR_LED, START_LED};
-
 /* Startup Loop */
 void setup() {
   Keyboard.begin();
@@ -71,13 +42,6 @@ void setup() {
   pinMode(FxL_PIN, INPUT_PULLUP);
   pinMode(FxR_PIN, INPUT_PULLUP);
   pinMode(START_PIN, INPUT_PULLUP);
-  pinMode(FxL_LED, OUTPUT);
-  pinMode(FxR_LED, OUTPUT);
-  pinMode(BTA_LED, OUTPUT);
-  pinMode(BTB_LED, OUTPUT);
-  pinMode(BTC_LED, OUTPUT);
-  pinMode(BTD_LED, OUTPUT);
-  pinMode(START_LED, OUTPUT);
 }
 
 /* Main Loop */
@@ -92,26 +56,22 @@ void checkAllKeyEvents(){
     if(switchType[i] == true){
       if(digitalRead(buttonPin[i]) == LOW && buttonState[i] == false){
         Keyboard.press(asciiKey[i]);
-        digitalWrite(ledPin[i], HIGH);
         buttonState[i] = true;
         keyTimer[i] = millis();
       }
       else if(digitalRead(buttonPin[i]) == HIGH && buttonState[i] == true && millis() - keyTimer[i] > DEBOUNCE){
         Keyboard.release(asciiKey[i]);
-        digitalWrite(ledPin[i], LOW);
         buttonState[i] = false;
       }
     }
     else{
       if(digitalRead(buttonPin[i]) == HIGH && buttonState[i] == false){
         Keyboard.press(asciiKey[i]);
-        digitalWrite(ledPin[i], HIGH);
         buttonState[i] = true;
         keyTimer[i] = millis();
       }
       else if(digitalRead(buttonPin[i]) == LOW && buttonState[i] == true && millis() - keyTimer[i] > DEBOUNCE){
         Keyboard.release(asciiKey[i]);
-        digitalWrite(ledPin[i], LOW);
         buttonState[i] = false;
       }
     }
