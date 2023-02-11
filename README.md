@@ -1,6 +1,8 @@
 # SDVX-Controller
 This is a life size Sound Voltex (SDVX) Controller made with Arduino Pro Micro
 
+Gameplay: https://youtu.be/JhOCCdDn6Mc
+
 ## What is the goal?
 The goal of this project is to create a life-sized SDVX Controller so that this video game is accessable to people without the arcade machine. Below this are some tasks that are required for this project to be successful: 
 
