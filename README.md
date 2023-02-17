@@ -48,10 +48,10 @@ The goal of this project is to create a life-sized SDVX Controller so that this 
 | ------- | :----: | :----: |
 | Left | 0 | 1 |
 | Right | 2 | 3 |
-## Arduino Code
-The code for this project has been uploaded to this repo, please check it out!
 
+## The Building Process
+The link below has the whole building process of this project and how I put everything together.
+Building the case: https://imgur.com/a/ZvbhlnX
 
-
-## What is the goal of this project?
+I have also added the arduino code for this project, which has all the buttons mapped to some keyboard input and the encoders to the mouse movements. 
 
