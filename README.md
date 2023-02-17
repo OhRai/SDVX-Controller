@@ -4,6 +4,8 @@ This is a life size Sound Voltex (SDVX) Controller made with Arduino Pro Micro
 Gameplay: https://youtu.be/JhOCCdDn6Mc
 
 ## What is the goal?
+As an avid rhythm game player, I have always wanted to play one specific game, Sound Voltex. Sound Voltex (or SDVX for short) is an arcade rhythm game that is only found in Japan, however many people have bought the arcade machine themselves and are now around the world. In the area I live, there is only one spot that has this machine, but it is across the country. People have made life sized controllers for this game as well, however they are very pricey going up to $500 USD for just one controller. So I came up with an idea and wanted to make my own contrller! Since I don't have the arcade game myself, someone has recreated the game so it is playable on all computers, which is how I will be demonstrating this controller. 
+
 The goal of this project is to create a life-sized SDVX Controller so that this video game is accessable to people without the arcade machine. Below this are some tasks that are required for this project to be successful: 
 
 ### Tasks
